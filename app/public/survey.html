@@ -209,6 +209,7 @@
             }
             var currentURL = window.location.origin;
             $.post(currentURL + "/api/friends ", friendInput, function(data) {
+              alert('tedt')
                 $("#friendName ").text(data.name);
                 $('#friendPhoto').attr("src", data.photo);
 

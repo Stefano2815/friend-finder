@@ -38,6 +38,4 @@ module.exports = function(app) {
         result.json(newFriendDetails);
 
     });
-
-
 };

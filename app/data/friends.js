@@ -2,7 +2,7 @@
 var friendsArray = [
 	{
 	  "name":"Donald Trump",
-	  "photo":"http://www.lawyersgunsmoneyblog.com/wp-content/uploads/2015/12/nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners-1024x768.jpg",
+	  "photo":"https://pbs.twimg.com/profile_images/885861823781666816/RmLJMUuX_400x400.jpg",
 	  "sex":"male",
 	  "scores":[
 	     5,
@@ -20,7 +20,7 @@ var friendsArray = [
 	{
 	  "name":"Vladimir Putin",
 	  "photo":"https://qph.fs.quoracdn.net/main-qimg-8735596e1412bb23a5f5f7eea14c4fc0.webp",
-	  "sex":"female",
+	  "sex":"male",
 	  "scores":[
 	     1,
 	     1,
@@ -36,39 +36,55 @@ var friendsArray = [
 	},
 	{
 	  "name":"Rick Sanchez",
-	  "photo":"https://cdn.costumewall.com/wp-content/uploads/2017/01/rick-sanchez.jpg",
-	  "sex":"female",
+	  "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Rick_and_Morty_characters_-_Rick_Sanchez.jpg/291px-Rick_and_Morty_characters_-_Rick_Sanchez.jpg",
+	  "sex":"male",
 	  "scores":[
-	     4,
-	     5,
-	     3,
-	     3,
-	     4,
-	     5,
-	     1,
-	     4,
-	     3,
-	     5
+	     2,
+	     2,
+	     2,
+	     2,
+	     2,
+	     2,
+	     2,
+	     2,
+	     2,
+	     2
 	   ]
 	},
 	{
 	  "name":"Morty Smith",
-	  "photo":"https://static.giantbomb.com/uploads/scale_small/0/9517/2816097-tumblr_n45cr8dmj61ty0km0o7_1280.png",
+	  "photo":"https://qph.fs.quoracdn.net/main-qimg-19b0cd2082fc3df3c99ee2305dfc93f0",
 	  "sex":"male",
 	  "scores":[
-	     2,
 	     3,
-	     1,
-	     1,
-	     2,
 	     3,
-	     4,
-	     2,
-	     1,
-	     3
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	   ]
+	},
+	{
+	  "name":"Summer Smith",
+	  "photo":"",
+	  "sex":"female",
+	  "scores":[
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
+	     3,
 	   ]
 	}
 ];
 
-// Set up table to be accessible to other files using require.
 module.exports = friendsArray;
